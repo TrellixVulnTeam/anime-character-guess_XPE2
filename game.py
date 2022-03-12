@@ -11,6 +11,7 @@ K = 4 # Şık sayısı
 
 def clean():
     console.clear()
+    os.system('cls')
     console.rule('WHO AM I | Anime character guess game')
 
 def play():
